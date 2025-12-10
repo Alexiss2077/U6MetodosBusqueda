@@ -61,7 +61,7 @@ namespace U6MetodosBusqueda
 
                         bool existe = SimpleHash.Search(dic, target);
                         Console.WriteLine(existe
-                            ? "\nEncontrado en la tabla hash."
+                            ? "\nEncontrado en la tabla hash. " + $"Valor asociado: {dic[target]}"
                             : "\nNo existe en la tabla hash.");
                         break;
 
